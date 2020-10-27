@@ -6,20 +6,18 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Decent Docs
 
 # Your name to show in the footer
-author: Some Person
+author: Ryan Schubert
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "is me"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
-
+    - Decent Diaspora: "https://3.basecamp.com/3671212/projects/7351439"
+    - Decent YouTube: "https://www.youtube.com/channel/UCCXojfo44Qhwdg3zmOWIJ7A"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
