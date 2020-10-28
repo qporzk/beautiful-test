@@ -3,19 +3,19 @@ layout: page
 title: Decent Docs
 subtitle: This is where I will compile everything I can find about the Decent Espresso Machines
 bigimg:
-  - 'img/bigimg/bigspro.jpg': "Photo by Google"
+  - 'https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/bigspro.jpg': "Photo by Google"
 use-site-title: true
 css: '/css/extend-home.css'
 ---
 
-<h1 class="text-center">Current Projects</h1>
+<h1 class="text-center">Main Sections</h1>
 
 <div class="spacer"></div>
 
 <div class="row text-center">
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
-      {%- assign gh-user = "OCram85"-%}
+      {%- assign gh-user = "Qporzk"-%}
       {%- assign gh-project = "Ponduit" -%}
       <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
