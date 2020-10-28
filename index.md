@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Welcome
-show-avatar: true
-subtitle: ...to my personal blog about PowerShell, Automation and more.
+title: Decent Docs
+subtitle: This is where I will compile everything I can find about the Decent Espresso Machines
 bigimg:
-  - 'img/bigimg/bg-home.jpg': "Photo by Dariusz Sankowski on Unsplash"
+  - 'img/bigimg/bigspro.jpg': "Photo by Google"
 use-site-title: true
 css: '/css/extend-home.css'
 ---
