@@ -1,8 +1,5 @@
 ---
-layout: page
+layout: home
 title: Decent Docs
 subtitle: This is where I will compile everything I can find about the Decent Espresso Machines
-bigimg:
-  - 'img/bigimg/bigspro.jpg': "Photo by google"
-use-site-title: true
 ---
