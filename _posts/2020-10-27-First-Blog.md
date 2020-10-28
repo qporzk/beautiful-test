@@ -2,4 +2,4 @@
 
 I wish my first shot lookes like this:
 
-![rao shot](/assets/img/rao-shot.png)
+![rao shot](https://raw.githubusercontent.com/qporzk/beautiful-test/master/assets/img/rao-profile.jpg)
