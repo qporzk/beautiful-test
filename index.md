@@ -3,7 +3,7 @@ layout: page
 title: Decent Docs
 subtitle: This is where I will compile everything I can find about the Decent Espresso Machines
 bigimg:
-  - 'https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/bigspro.jpg': "Photo by Google"
+![image](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/bigspro.jpg)
 use-site-title: true
 css: '/css/extend-home.css'
 ---
@@ -26,8 +26,8 @@ css: '/css/extend-home.css'
         <hr class="seperator">
         <p class="text-muted">A simple Phabricator Conduit client made with Powershell.</p>
         <hr class="seperator">
-        <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
-        <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
+        <!-- <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks"> -->
+        <!-- <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars"> -->
       </a>
     </div>
   </div>
@@ -43,8 +43,8 @@ css: '/css/extend-home.css'
         <hr class="seperator">
         <p class="text-muted">A code coverage interface for coveralls.io. Based on Pester coverage reports.</p>
         <hr class="seperator">
-        <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
-        <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
+        <!-- <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks"> -->
+        <!-- <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars"> -->
       </a>
     </div>
   </div>
@@ -60,8 +60,8 @@ css: '/css/extend-home.css'
         <hr class="seperator">
         <p class="text-muted">A simple credential manager to store and reuse multiple credential objects.</p>
         <hr class="seperator">
-        <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
-        <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
+        <!-- <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks"> -->
+        <!-- <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars"> -->
       </a>
     </div>
   </div>
