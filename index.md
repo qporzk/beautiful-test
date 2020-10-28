@@ -18,7 +18,7 @@ css: '/css/extend-home.css'
     <div class="project-card">
       {%- assign gh-user = "Qporzk"-%}
       {%- assign gh-project = "Ponduit" -%}
-      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
+      <a target="_blank" href="google.com" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-square fa-stack-2x stack-color"></i>
           <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
@@ -27,8 +27,6 @@ css: '/css/extend-home.css'
         <hr class="seperator">
         <p class="text-muted">A simple Phabricator Conduit client made with Powershell.</p>
         <hr class="seperator">
-        <!-- <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks"> -->
-        <!-- <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars"> -->
       </a>
     </div>
   </div>
@@ -44,8 +42,6 @@ css: '/css/extend-home.css'
         <hr class="seperator">
         <p class="text-muted">A code coverage interface for coveralls.io. Based on Pester coverage reports.</p>
         <hr class="seperator">
-        <!-- <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks"> -->
-        <!-- <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars"> -->
       </a>
     </div>
   </div>
@@ -61,8 +57,6 @@ css: '/css/extend-home.css'
         <hr class="seperator">
         <p class="text-muted">A simple credential manager to store and reuse multiple credential objects.</p>
         <hr class="seperator">
-        <!-- <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks"> -->
-        <!-- <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars"> -->
       </a>
     </div>
   </div>
