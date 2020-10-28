@@ -2,13 +2,14 @@
 layout: page
 title: Decent Docs
 subtitle: This is where I will compile everything I can find about the Decent Espresso Machines
-bigimg:
-![image](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/bigspro.jpg)
+<!-- bigimg:
+![image](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/bigspro.jpg) -->
 use-site-title: true
 css: '/css/extend-home.css'
 ---
 
 <h1 class="text-center">Main Sections</h1>
+<img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/bigspro.jpg" alt="Italian Trulli">
 
 <div class="spacer"></div>
 
