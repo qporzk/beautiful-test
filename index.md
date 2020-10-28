@@ -9,7 +9,7 @@ css: '/css/extend-home.css'
 ---
 
 <h1 class="text-center">Main Sections</h1>
-<img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/bigspro.jpg" alt="espresso" width="3000" height="500">
+<img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/bigspro.jpg" alt="espresso" width="10000" height="500">
 
 <div class="spacer"></div>
 
