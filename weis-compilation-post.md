@@ -4,9 +4,9 @@ title: Getting Started
 subtitle: The links below are to a compiled list of topics from various places, compiled by Weis. The original post can be found here:
 ---
 
-[Weis' Original Post](https://3.basecamp.com/3671212/buckets/7351439/messages/2743471398)
-
 ## Sections
+
+[Weis' Original Post](https://3.basecamp.com/3671212/buckets/7351439/messages/2743471398)
 
 Manual
  - The Basecamp Decent Manual - [Manual](https://3.basecamp.com/3671212/buckets/7351439/documents/2864587729)
