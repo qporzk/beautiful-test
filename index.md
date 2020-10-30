@@ -15,7 +15,7 @@ css: '/css/extend-home.css'
 
 <div class="row text-center">
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
-    <div class="project-card">
+    <div class="card">
       {%- assign gh-user = "Qporzk"-%}
       {%- assign gh-project = "Getting Started" -%}
       <a target="_blank" href="google.com" class="project-link" title="Go to Github Poject Page">
@@ -25,7 +25,7 @@ css: '/css/extend-home.css'
         </span>
         <h4>{{- gh-project -}}</h4>
         <hr class="seperator">
-        <p class="text-muted">A simple Phabricator Conduit client made with Powershell.</p>
+        <p class="text-muted">List of links for beginner information.</p>
         <hr class="seperator">
       </a>
     </div>
