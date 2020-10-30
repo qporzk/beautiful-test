@@ -1,10 +1,13 @@
 ---
 layout: page
-title: Weis' Beginner Compilation
-subtitle: The links below are to a compiled list of topics from various places. The original post can be found [here](https://3.basecamp.com/3671212/buckets/7351439/messages/2743471398)
+title: Getting Started
+subtitle: The links below are to a compiled list of topics from various places, compiled by Weis. The original post can be found [here](https://3.basecamp.com/3671212/buckets/7351439/messages/2743471398)
 ---
 
 ## Sections
+
+Manual
+ - The Basecamp Decent Manual - [Manual](https://3.basecamp.com/3671212/buckets/7351439/documents/2864587729)
 
 Interpreting curves on the Decent:
 - Docs & Files - [Advanced Espresso Advice](https://3.basecamp.com/3671212/buckets/7351439/documents/1788487853)
