@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Getting Started
-subtitle: The links below are to a compiled list of topics from various places, compiled by Weis. The original post can be found here:
+subtitle: The links below are to a compiled list of topics from various places, compiled by Weis.
 ---
 
 ## Sections
