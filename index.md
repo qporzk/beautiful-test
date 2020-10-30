@@ -9,18 +9,8 @@ css: '/css/extend-home.css'
 ---
 
 <h1 class="text-center">Some Decent Documentation</h1>
-<img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg" alt="espresso">
+<img style="width:100%" src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg" alt="espresso">
 <div class="spacer"></div>
-
-#bannerimage {
-  width: 100%;
-  background-image: url(https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg);
-  height: 405px;
-  background-color: purple;
-  background-position: center;
-}
-
-<div id="bannerimage"></div>
 
 <div class="row text-center">
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
