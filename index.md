@@ -12,6 +12,14 @@ css: '/css/extend-home.css'
 <img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg" alt="espresso">
 <div class="spacer"></div>
 
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>I am John Doe</h1>
+    <p>And I'm a Photographer</p>
+    <button>Hire me</button>
+  </div>
+</div>
+
 <div class="row text-center">
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
@@ -29,7 +37,7 @@ css: '/css/extend-home.css'
   </div>
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
-      <a target="_blank" href="https://qporzk.github.io/Decent-Docs/mods-and-models/" class="project-link" title="Go to Github Poject Page">
+      <a target="_self" href="https://qporzk.github.io/Decent-Docs/mods-and-models/" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-square fa-stack-2x stack-color"></i>
           <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
@@ -43,7 +51,7 @@ css: '/css/extend-home.css'
   </div>
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
-      <a target="_blank" href="https://3.basecamp.com/3671212/projects/7351439" class="project-link" title="Go to Github Poject Page">
+      <a target="_self" href="https://3.basecamp.com/3671212/projects/7351439" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-square fa-stack-2x stack-color"></i>
           <i class="fa fa-comments fa-stack-1x fa-inverse"></i>
