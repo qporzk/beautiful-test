@@ -1,5 +1,5 @@
-# Baby's First Espresso Shot
+# Baby's First Allonge
 
-I wish my first shot looked like this:
+My first attempt at an allonge:
 
-![rao shot](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/rao-profile.jpg)
+![allonge shot](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/allonge.jpg)

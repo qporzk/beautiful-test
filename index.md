@@ -1,16 +1,11 @@
 ---
 layout: page
-title: Decent Docs
+title: Some Decent Documentation
+show-avatar: true
 subtitle: This is where I will compile everything I can find about the Decent Espresso Machines
-bigimg:
-  -'https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg'
 use-site-title: true
 css: '/css/extend-home.css'
 ---
-
-<!-- <h1 class="text-center">Some Decent Documentation</h1>
-<img style="width:100%" src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg" alt="espresso">
-<div class="spacer"></div> -->
 
 <div class="row text-center">
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
