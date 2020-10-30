@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Some Decent Documentation
-show-avatar: true
 subtitle: This is where I will compile everything I can find about the Decent Espresso Machines
+cover-img: "/img/bigimg/beans.jpg"
 use-site-title: true
 css: '/css/extend-home.css'
 ---
