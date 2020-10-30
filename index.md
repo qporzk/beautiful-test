@@ -8,7 +8,7 @@ use-site-title: true
 css: '/css/extend-home.css'
 ---
 
-<h1 class="text-center">Main Sections</h1>
+<h1 class="text-center">Some Decent Documentation</h1>
 <!-- <img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/bigspro.jpg" alt="espresso" style="width:5000px;height:600px;"> -->
 <img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg" alt="espresso">
 <div class="spacer"></div>
