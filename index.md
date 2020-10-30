@@ -3,7 +3,7 @@ layout: page
 title: Decent Docs
 subtitle: This is where I will compile everything I can find about the Decent Espresso Machines
 bigimg:
-![image](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg)
+  -'https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg'
 use-site-title: true
 css: '/css/extend-home.css'
 ---
@@ -11,31 +11,6 @@ css: '/css/extend-home.css'
 <!-- <h1 class="text-center">Some Decent Documentation</h1>
 <img style="width:100%" src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg" alt="espresso">
 <div class="spacer"></div> -->
-
-<!-- <div id="header-big-imgs" data-num-img="1" data-img-src-1="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg" data-img-desc-1="Photo by Dariusz Sankowski on Unsplash"></div>
-
-<header class="header-section has-img">
-
-<div class="big-img intro-header" style="background-image: url(https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg);">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="page-heading">
-          <h1>Welcome</h1>
-      
-        
-            <hr class="small">
-            <span class="page-subheading">...to some Decent docs</span>
-      
-      
-      
-      
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</header> -->
 
 <div class="row text-center">
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
