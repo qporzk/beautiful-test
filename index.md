@@ -15,7 +15,7 @@ css: '/css/extend-home.css'
 
 <div class="row text-center">
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
-    <div class="card">
+    <!-- <div class="card">
       {%- assign gh-user = "Qporzk"-%}
       {%- assign gh-project = "Getting Started" -%}
       <a target="_blank" href="google.com" class="project-link" title="Go to Github Poject Page">
@@ -28,6 +28,14 @@ css: '/css/extend-home.css'
         <p class="text-muted">List of links for beginner information.</p>
         <hr class="seperator">
       </a>
+    </div> -->
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Getting Started</h5>
+        <p class="card-text">List of links for beginner information.</p>
+        <a href="https://qporzk.github.io/Decent-Docs/weis-compilation-post/" class="btn btn-primary">Take Me There</a>
+      </div>
     </div>
   </div>
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
