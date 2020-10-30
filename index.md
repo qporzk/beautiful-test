@@ -9,7 +9,6 @@ css: '/css/extend-home.css'
 ---
 
 <h1 class="text-center">Some Decent Documentation</h1>
-<!-- <img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/bigspro.jpg" alt="espresso" style="width:5000px;height:600px;"> -->
 <img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg" alt="espresso">
 <div class="spacer"></div>
 
@@ -19,7 +18,7 @@ css: '/css/extend-home.css'
       <a target="_blank" href="https://qporzk.github.io/Decent-Docs/weis-compilation-post/" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-square fa-stack-2x stack-color"></i>
-          <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+          <i class="fa fa-play fa-stack-1x fa-inverse"></i>
         </span>
         <h4>Getting Started</h4>
         <hr class="seperator">
@@ -27,14 +26,6 @@ css: '/css/extend-home.css'
         <hr class="seperator">
       </a>
     </div>
-    <!-- <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Getting Started</h5>
-        <p class="card-text">List of links for beginner information.</p>
-        <a href="https://qporzk.github.io/Decent-Docs/weis-compilation-post/" class="btn btn-primary">Take Me There</a>
-      </div>
-    </div> -->
   </div>
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
