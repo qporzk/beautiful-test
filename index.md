@@ -8,9 +8,9 @@ use-site-title: true
 css: '/css/extend-home.css'
 ---
 
-<h1 class="text-center">Some Decent Documentation</h1>
+<!-- <h1 class="text-center">Some Decent Documentation</h1>
 <img style="width:100%" src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg" alt="espresso">
-<div class="spacer"></div>
+<div class="spacer"></div> -->
 
 <header class="header-section has-img">
 
@@ -23,7 +23,7 @@ css: '/css/extend-home.css'
       
         
             <hr class="small">
-            <span class="page-subheading">...to my personal blog about PowerShell, Automation and more.</span>
+            <span class="page-subheading">...to some Decent docs</span>
       
       
       
