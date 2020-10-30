@@ -1,7 +1,8 @@
-# Weis' Beginner Compilation
-
-The links below are to a compiled list of topics from various places. The original post can be found [here](https://3.basecamp.com/3671212/buckets/7351439/messages/2743471398)
-
+---
+layout: page
+title: Weis' Beginner Compilation
+subtitle: The links below are to a compiled list of topics from various places. The original post can be found [here](https://3.basecamp.com/3671212/buckets/7351439/messages/2743471398)
+---
 
 ## Sections
 
