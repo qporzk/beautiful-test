@@ -1,5 +1,7 @@
-<!-- # Mods and Models -->
-### Here I’ll compile links to various mods and models for 3D printing
+---
+title: Mods and Models
+subtitle: Here I’ll compile links to various mods and models for 3D printing
+---
 
 - [Portafilter Hanger](https://github.com/qporzk/Decent-Docs/blob/master/Models/DE1_Hanger_Full.stl)
 <!-- ![Portafilter_Hanger](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/Portafilter_Hanger.jpg) -->
