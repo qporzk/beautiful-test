@@ -14,7 +14,7 @@ css: '/css/extend-home.css'
 
 <header class="header-section has-img">
 
-<div class="big-img intro-header" style="background-image: url(&quot;img/bigimg/beans.jpg&quot;);">
+<div class="big-img intro-header" style="background-image: url(https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg);">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
