@@ -32,7 +32,7 @@ css: '/css/extend-home.css'
       <a target="_blank" href="https://qporzk.github.io/Decent-Docs/mods-and-models/" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-square fa-stack-2x stack-color"></i>
-          <i class="fa fa-file-code-o fa-stack-1x fa-inverse"></i>
+          <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
         </span>
         <h4>Mods and Models</h4>
         <hr class="seperator">
@@ -46,7 +46,7 @@ css: '/css/extend-home.css'
       <a target="_blank" href="https://3.basecamp.com/3671212/projects/7351439" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-square fa-stack-2x stack-color"></i>
-          <i class="fa fa-user-secret fa-stack-1x fa-inverse"></i>
+          <i class="fa fa-comments fa-stack-1x fa-inverse"></i>
         </span>
         <h4>Decent Diaspora</h4>
         <hr class="seperator">
