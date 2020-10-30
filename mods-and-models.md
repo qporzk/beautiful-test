@@ -1,6 +1,6 @@
 # Here I'll compile links to various mods and models for 3D printing
 
-- [Portafilter Hanger](https://github.com/qporzk/Decent-Docs/blob/master/Models/de1_holder.stl)
+- [Portafilter Hanger](https://github.com/qporzk/Decent-Docs/blob/master/Models/DE1_Hanger_Full.stl)
 ![Portafilter_Hanger](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/Portafilter_Hanger.jpg)
 - [Tamping Cradle](https://github.com/qporzk/Decent-Docs/blob/master/Models/TampCradle.stl)
 ![TampCradle](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/TampingCradle.jpg)
