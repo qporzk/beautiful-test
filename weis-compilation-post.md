@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Getting Started
-subtitle: The links below are to a compiled list of topics from various places, compiled by Weis. The original post can be found [here](https://3.basecamp.com/3671212/buckets/7351439/messages/2743471398)
+subtitle: The links below are to a compiled list of topics from various places, compiled by Weis. The original post can be found here:
 ---
+
+[Manual](https://3.basecamp.com/3671212/buckets/7351439/messages/2743471398)
 
 ## Sections
 
