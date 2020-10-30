@@ -2,7 +2,7 @@
 layout: page
 title: Some Decent Documentation
 subtitle: This is where I will compile everything I can find about the Decent Espresso Machines
-cover-img: "/img/bigimg/beans.jpg"
+cover-img: "https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg"
 use-site-title: true
 css: '/css/extend-home.css'
 ---
