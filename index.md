@@ -12,13 +12,15 @@ css: '/css/extend-home.css'
 <img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg" alt="espresso">
 <div class="spacer"></div>
 
-<div class="hero-image">
-  <div class="hero-text">
-    <h1>I am John Doe</h1>
-    <p>And I'm a Photographer</p>
-    <button>Hire me</button>
-  </div>
-</div>
+#bannerimage {
+  width: 100%;
+  background-image: url(https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg);
+  height: 405px;
+  background-color: purple;
+  background-position: center;
+}
+
+<div id="bannerimage"></div>
 
 <div class="row text-center">
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
