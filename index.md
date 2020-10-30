@@ -12,6 +12,8 @@ css: '/css/extend-home.css'
 <img style="width:100%" src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg" alt="espresso">
 <div class="spacer"></div> -->
 
+<div id="header-big-imgs" data-num-img="1" data-img-src-1="img/bigimg/bg-home.jpg" data-img-desc-1="Photo by Dariusz Sankowski on Unsplash"></div>
+
 <header class="header-section has-img">
 
 <div class="big-img intro-header" style="background-image: url(https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beans.jpg);">
@@ -32,7 +34,6 @@ css: '/css/extend-home.css'
       </div>
     </div>
   </div>
-  <span class="img-desc" style="display: inline;">Photo by Dariusz Sankowski on Unsplash</span>
 </div>
 
 <div class="intro-header no-img">
