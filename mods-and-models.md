@@ -9,8 +9,8 @@ subtitle: Here I’ll compile links to various mods and models for 3D printing
 <details>
   <summary>Click to expand!</summary>
   
-  ![TampCradle](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/TampingCradle.jpg)
-  
+![TampCradle](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/TampingCradle.jpg)
+
 </details>
 
 - [Portafilter Hanger](https://github.com/qporzk/Decent-Docs/blob/master/Models/DE1_Hanger_Full.stl)
