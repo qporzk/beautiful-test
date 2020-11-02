@@ -5,9 +5,9 @@ subtitle: Here I’ll compile links to various mods and models for 3D printing
 ---
 
 # Design
-- [Portafilter Drawings](https://3.basecamp.com/3671212/buckets/7351439/documents/2096435245)
+
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Portfilter Drawings</summary>
   
 <img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bottomless_handle.jpg" alt="Portafilter">
 
@@ -18,6 +18,8 @@ subtitle: Here I’ll compile links to various mods and models for 3D printing
 <img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bottomless_head.jpg" alt="Portafilter">
 
 <img src="https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/spouted_head.jpg" alt="Portafilter">
+
+<a href="https://3.basecamp.com/3671212/buckets/7351439/documents/2096435245">Originals</a>
 </details>
 
 - [Portafilter Hanger](https://github.com/qporzk/Decent-Docs/blob/master/Models/DE1_Hanger_Full.stl)
