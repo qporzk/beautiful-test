@@ -4,6 +4,15 @@ title: Mods and Models
 subtitle: Here I’ll compile links to various mods and models for 3D printing
 ---
 
+# Design
+- [Portafilter Drawings](https://3.basecamp.com/3671212/buckets/7351439/documents/2096435245)
+<details>
+  <summary>Click to expand!</summary>
+  
+  ![TampCradle](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/TampingCradle.jpg)
+  
+</details>
+
 - [Portafilter Hanger](https://github.com/qporzk/Decent-Docs/blob/master/Models/DE1_Hanger_Full.stl)
 
 |![](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/Portafilter_Hanger.jpg)  |  ![](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/holder_photo.jpg) |
