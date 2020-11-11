@@ -6,6 +6,8 @@ subtitle: Here I’ll compile links to various skins
 
 [Damian's DSx](https://www.diy.brakel.com.au/dsx/)
 
+- Highly configurable skin with large amount of value-add features
+
 [My Mods to DSx](<https://github.com/qporzk/Decent-Docs/blob/master/assets/skins/DSx Mods>)
 
 - Add DSx_functions.tcl and DSx_skin.tcl to the DSx_Code_Files folder
@@ -16,3 +18,5 @@ subtitle: Here I’ll compile links to various skins
 	- Touch the text above a setting to edit it
 
 [My minimalist dark skin](https://github.com/qporzk/Decent-Docs/blob/master/assets/skins/SimpleBlack.zip)
+
+- This is SUPER minimal, and basically useless if you have a GHC. Was mostly practice for getting to know tcl
