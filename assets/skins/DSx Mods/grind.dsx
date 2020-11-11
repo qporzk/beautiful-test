@@ -1,0 +1,169 @@
+package provide grind.dsx 1.0
+#### Grind tracker by Ryan v1.00 ####
+
+DSx_plugin_page_name grind
+
+### Page heading ###
+add_de1_variable "grind" 1280 50 -justify center -font [DSx_font font 18] -fill $::DSx_settings(font_colour) -textvariable {Grind Settings}
+
+### Starting values ###
+if {[info exists ::settings(grind_r)] != 1} {
+    set ::settings(grind_r) 10
+}
+if {[info exists ::settings(grind_rbloom)] != 1} {
+    set ::settings(grind_rbloom) 8
+}  
+if {[info exists ::settings(grind_rallonge)] != 1} {
+    set ::settings(grind_rallonge) 12
+}
+if {[info exists ::settings(grind_rturbo)] != 1} {
+    set ::settings(grind_rturbo) 12
+}
+if {[info exists ::settings(grind_d)] != 1} {
+    set ::settings(grind_d) 5
+}
+if {[info exists ::settings(grind_dbloom)] != 1} {
+    set ::settings(grind_dbloom) 3
+}  
+if {[info exists ::settings(grind_dallonge)] != 1} {
+    set ::settings(grind_dallonge) 7
+}
+if {[info exists ::settings(grind_dturbo)] != 1} {
+    set ::settings(grind_dturbo) 7
+}
+if {[info exists ::settings(grind_s)] != 1} {
+    set ::settings(grind_s) 7
+}
+if {[info exists ::settings(grind_sbloom)] != 1} {
+    set ::settings(grind_sbloom) 5
+}  
+if {[info exists ::settings(grind_sallonge)] != 1} {
+    set ::settings(grind_sallonge) 10
+}
+if {[info exists ::settings(grind_sturbo)] != 1} {
+    set ::settings(grind_sturbo) 10
+}
+if {[info exists ::settings(grind_o)] != 1} {
+    set ::settings(grind_o) 7
+}
+if {[info exists ::settings(grind_obloom)] != 1} {
+    set ::settings(grind_obloom) 5
+}  
+if {[info exists ::settings(grind_oallonge)] != 1} {
+    set ::settings(grind_oallonge) 10
+} 
+if {[info exists ::settings(grind_oturbo)] != 1} {
+    set ::settings(grind_oturbo) 10
+} 
+if {[info exists ::settings(reg_color)] != 1} {
+    set ::settings(reg_color) {#ec7063}
+} 
+if {[info exists ::settings(dec_color)] != 1} {
+    set ::settings(dec_color) {#a569bd}
+} 
+if {[info exists ::settings(spe_color)] != 1} {
+    set ::settings(spe_color) {#5dade2}
+} 
+if {[info exists ::settings(oth_color)] != 1} {
+    set ::settings(oth_color) {#58d68d}
+} 
+
+### The calulations ###
+proc grind_calculate {} {
+    
+}
+grind_calculate
+
+### User Input ###
+
+## Regular ##
+
+add_de1_image "grind" 280 160 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 524 130 -text "" -font [DSx_font font 9] -fill $::settings(reg_color) -justify center -anchor "center"  -textvariable {Regular}
+add_de1_variable "grind" 524 260 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(reg_color) -textvariable {[round_to_one_digits $::settings(grind_r)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_r) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 280 160 760 560 ""
+
+add_de1_image "grind" 280 460 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 524 430 -text "" -font [DSx_font font 9] -fill $::settings(reg_color) -justify center -anchor "center"  -textvariable {Regular Bloom}
+add_de1_variable "grind" 524 560 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(reg_color) -textvariable {[round_to_one_digits $::settings(grind_rbloom)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_rbloom) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 280 460 760 860 ""
+
+add_de1_image "grind" 280 760 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 524 730 -text "" -font [DSx_font font 9] -fill $::settings(reg_color) -justify center -anchor "center"  -textvariable {Regular Allonge}
+add_de1_variable "grind" 524 860 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(reg_color) -textvariable {[round_to_one_digits $::settings(grind_rallonge)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_rallonge) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 280 760 760 1160 ""
+
+add_de1_image "grind" 280 1060 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 524 1030 -text "" -font [DSx_font font 9] -fill $::settings(reg_color) -justify center -anchor "center"  -textvariable {Regular Turbo}
+add_de1_variable "grind" 524 1160 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(reg_color) -textvariable {[round_to_one_digits $::settings(grind_rturbo)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_rturbo) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 280 1060 760 1460 ""
+
+
+## Decaf ##
+
+add_de1_image "grind" 780 160 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 1024 130 -text "" -font [DSx_font font 9] -fill $::settings(dec_color) -justify center -anchor "center"  -textvariable {Decaf}
+add_de1_variable "grind" 1024 260 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(dec_color) -textvariable {[round_to_one_digits $::settings(grind_d)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_d) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 780 160 1260 560 ""
+
+add_de1_image "grind" 780 460 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 1024 430 -text "" -font [DSx_font font 9] -fill $::settings(dec_color) -justify center -anchor "center"  -textvariable {Decaf Bloom}
+add_de1_variable "grind" 1024 560 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(dec_color) -textvariable {[round_to_one_digits $::settings(grind_dbloom)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_dbloom) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 780 460 1260 860 ""
+
+add_de1_image "grind" 780 760 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 1024 730 -text "" -font [DSx_font font 9] -fill $::settings(dec_color) -justify center -anchor "center"  -textvariable {Decaf Allonge}
+add_de1_variable "grind" 1024 860 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(dec_color) -textvariable {[round_to_one_digits $::settings(grind_dallonge)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_dallonge) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 780 760 1260 1160 ""
+
+add_de1_image "grind" 780 1060 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 1024 1030 -text "" -font [DSx_font font 9] -fill $::settings(dec_color) -justify center -anchor "center"  -textvariable {Decaf Turbo}
+add_de1_variable "grind" 1024 1160 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(dec_color) -textvariable {[round_to_one_digits $::settings(grind_dturbo)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_dturbo) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 780 1060 1260 1460 ""
+
+
+## Special ##
+
+add_de1_image "grind" 1280 160 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 1524 130 -text "" -font [DSx_font font 9] -fill $::settings(spe_color) -justify center -anchor "center"  -textvariable {Special}
+add_de1_variable "grind" 1524 260 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(spe_color) -textvariable {[round_to_one_digits $::settings(grind_s)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_s) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 1280 160 1760 560 ""
+
+add_de1_image "grind" 1280 460 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 1524 430 -text "" -font [DSx_font font 9] -fill $::settings(spe_color) -justify center -anchor "center"  -textvariable {Special Bloom}
+add_de1_variable "grind" 1524 560 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(spe_color) -textvariable {[round_to_one_digits $::settings(grind_sbloom)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_sbloom) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 1280 460 1760 860 ""
+
+add_de1_image "grind" 1280 760 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 1524 730 -text "" -font [DSx_font font 9] -fill $::settings(spe_color) -justify center -anchor "center"  -textvariable {Special Allonge}
+add_de1_variable "grind" 1524 860 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(spe_color) -textvariable {[round_to_one_digits $::settings(grind_sallonge)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_sallonge) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 1280 760 1760 1160 ""
+
+add_de1_image "grind" 1280 1060 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 1524 1030 -text "" -font [DSx_font font 9] -fill $::settings(spe_color) -justify center -anchor "center"  -textvariable {Special Turbo}
+add_de1_variable "grind" 1524 1160 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(spe_color) -textvariable {[round_to_one_digits $::settings(grind_sturbo)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_sturbo) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 1280 1060 1760 1460 ""
+
+
+## Other ##
+
+add_de1_image "grind" 1780 160 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 2024 130 -text "" -font [DSx_font font 9] -fill $::settings(oth_color) -justify center -anchor "center"  -textvariable {Other}
+add_de1_variable "grind" 2024 260 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(oth_color) -textvariable {[round_to_one_digits $::settings(grind_o)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_o) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 1780 160 2260 560 ""
+
+add_de1_image "grind" 1780 460 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 2024 430 -text "" -font [DSx_font font 9] -fill $::settings(oth_color) -justify center -anchor "center"  -textvariable {Other Bloom}
+add_de1_variable "grind" 2024 560 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(oth_color) -textvariable {[round_to_one_digits $::settings(grind_obloom)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_obloom) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 1780 460 2260 860 ""
+
+add_de1_image "grind" 1780 760 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 2024 730 -text "" -font [DSx_font font 9] -fill $::settings(oth_color) -justify center -anchor "center"  -textvariable {Other Allonge}
+add_de1_variable "grind" 2024 860 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(oth_color) -textvariable {[round_to_one_digits $::settings(grind_oallonge)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_oallonge) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 1780 760 2260 1160 ""
+
+add_de1_image "grind" 1780 1060 "[skin_directory_graphics]/icons/click1.png"
+add_de1_variable "grind" 2024 1030 -text "" -font [DSx_font font 9] -fill $::settings(oth_color) -justify center -anchor "center"  -textvariable {Other Turbo}
+add_de1_variable "grind" 2024 1160 -justify center -anchor center -font [DSx_font font 12] -fill $::settings(oth_color) -textvariable {[round_to_one_digits $::settings(grind_oturbo)]}
+add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker .1 .1 ::settings(grind_oturbo) 0 20 %x %y %x0 %y0 %x1 %y1; grind_calculate;} 1780 1060 2260 1460 ""
+
