@@ -9,7 +9,7 @@ subtitle: The links below are to a compiled list of topics from various places, 
 [Weis' Original Post](https://3.basecamp.com/3671212/buckets/7351439/messages/2743471398)
 
 Manual
- - The Basecamp Decent Manual - [Manual](https://3.basecamp.com/3671212/buckets/7351439/documents/2864587729)
+- The Basecamp Decent Manual - [Manual](https://3.basecamp.com/3671212/buckets/7351439/documents/2864587729)
 
 Interpreting curves on the Decent:
 - Docs & Files - [Advanced Espresso Advice](https://3.basecamp.com/3671212/buckets/7351439/documents/1788487853)
@@ -47,5 +47,3 @@ Pourovers on the Decent:
 - Decent on Youtube - [Scott Rao shows pour over on Decent](https://www.youtube.com/watch?v=HraNBzMaCW8)
 - Message board - [Decent pourover spray head recipes](https://3.basecamp.com/3671212/buckets/7351439/messages/2611064115)
 - Coffee Ad Astra - [The physics of fines migration](https://coffeeadastra.com/2020/02/01/the-physics-of-fines-migration/)
-
-![Sample Image](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/docs/Pictures/machine.jpg)
