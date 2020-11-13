@@ -39,6 +39,7 @@ if {$::DSx_settings(admin) == 1} {
 }
 add_de1_button "$::DSx_standby_pages" {say [translate {sleep}] $::settings(sound_button_in); set ::current_espresso_page "off"; off_timer;} 2250 1250 2470 1500
 ### Left Side
+
 add_de1_image "$::DSx_home_pages" 140 350 "[skin_directory_graphics]/icons/history.png"
 add_de1_image "$::DSx_home_pages" 100 770 "[skin_directory_graphics]/icons/jug.png"
 add_de1_image "$::DSx_home_pages" 100 1270 "[skin_directory_graphics]/icons/bluecup.png"

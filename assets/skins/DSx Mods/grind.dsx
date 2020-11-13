@@ -4,7 +4,7 @@ package provide grind.dsx 1.0
 DSx_plugin_page_name grind
 
 ### Page heading ###
-add_de1_variable "grind" 1280 50 -justify center -font [DSx_font font 18] -fill $::DSx_settings(font_colour) -textvariable {Grind Settings}
+add_de1_variable "grind" 600 1400 -justify center -font [DSx_font font 18] -fill $::DSx_settings(font_colour) -textvariable {Grind Settings}
 
 ### Starting values ###
 if {[info exists ::settings(grind_1_1)] != 1} {
@@ -130,25 +130,25 @@ grind_calculate
 ## Group 1 ##
 # Text Boxes #
 
-add_de1_widget "grind" entry 325 100 {
+add_de1_widget "grind" entry 330 100 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_1) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_1_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_1) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_1_color)
 
-add_de1_widget "grind" entry 325 400 {
+add_de1_widget "grind" entry 330 400 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_2) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_1_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_2) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_1_color)
 
-add_de1_widget "grind" entry 325 700 {
+add_de1_widget "grind" entry 330 700 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_3) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_1_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_3) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_1_color)
 
-add_de1_widget "grind" entry 325 1000 {
+add_de1_widget "grind" entry 330 1000 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_4) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_1_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_4) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_1_color)
 
 # Grind Settings #
 
@@ -172,25 +172,25 @@ add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker 
 ## Group 2 ##
 # Text Boxes #
 
-add_de1_widget "grind" entry 825  100 {
+add_de1_widget "grind" entry 830  100 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_5) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_2_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_5) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_2_color)
 
-add_de1_widget "grind" entry 825 400 {
+add_de1_widget "grind" entry 830 400 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_6) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_2_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_6) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_2_color)
 
-add_de1_widget "grind" entry 825 700 {
+add_de1_widget "grind" entry 830 700 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_7) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_2_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_7) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_2_color)
 
-add_de1_widget "grind" entry 825 1000 {
+add_de1_widget "grind" entry 830 1000 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_8) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_2_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_8) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_2_color)
 
 # Grind Settings #
 
@@ -214,25 +214,25 @@ add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker 
 ## Group 3 ##
 # Text Boxes #
 
-add_de1_widget "grind" entry 1325  100 {
+add_de1_widget "grind" entry 1330  100 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_9) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_3_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_9) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_3_color)
 
-add_de1_widget "grind" entry 1325 400 {
+add_de1_widget "grind" entry 1330 400 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_10) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_3_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_10) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_3_color)
 
-add_de1_widget "grind" entry 1325 700 {
+add_de1_widget "grind" entry 1330 700 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_11) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_3_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_11) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_3_color)
 
-add_de1_widget "grind" entry 1325 1000 {
+add_de1_widget "grind" entry 1330 1000 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_12) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_3_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_12) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_3_color)
 
 # Grind Settings #
 
@@ -256,25 +256,25 @@ add_de1_button "grind" {say "" $::settings(sound_button_in); horizontal_clicker 
 ## Other ##
 # Text Boxes #
 
-add_de1_widget "grind" entry 1825  100 {
+add_de1_widget "grind" entry 1830  100 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_13) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_4_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_13) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_4_color)
 
-add_de1_widget "grind" entry 1825 400 {
+add_de1_widget "grind" entry 1830 400 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_14) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_4_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_14) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_4_color)
 
-add_de1_widget "grind" entry 1825 700 {
+add_de1_widget "grind" entry 1830 700 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_15) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_4_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_15) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_4_color)
 
-add_de1_widget "grind" entry 1825 1000 {
+add_de1_widget "grind" entry 1830 1000 {
         set ::grind_name $widget
         bind $widget <Return> { say [translate {save}] $::settings(sound_button_in); save_DSx_settings;}
-    }  -width 16 -font [DSx_font font 9] -borderwidth 0 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_16) -relief sunken -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_4_color)
+    }  -width 16 -font [DSx_font font 7] -borderwidth 2 -bg $::DSx_settings(bg_colour) -textvariable ::DSx_settings(grind_16) -relief raised -highlightthickness 0 -highlightcolor #000000 -justify center -foreground $::settings(group_4_color)
 
 # Grind Settings #
 
