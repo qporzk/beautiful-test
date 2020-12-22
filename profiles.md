@@ -6,6 +6,8 @@ subtitle: Here I’ll compile links to various profiles that I've tried
 
 [Default Decent Profiles](http://bit.ly/decent-profiles)
 
+This is a folder conatining all of the profiles that come on the Decent by default. These are useful for resetting the profile back to stock if you accidentally change something and want to get back to a default state.
+
 [Damian's LR, LM Leva, and Slayer](https://www.diy.brakel.com.au/decent-profiles/)
 
 [Collin Arneson's Turbobloom](<https://github.com/qporzk/Decent-Docs/blob/master/assets/profiles/T U R B O B L O O M.zip>)
