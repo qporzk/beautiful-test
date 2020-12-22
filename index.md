@@ -41,7 +41,7 @@ css: '/css/extend-home.css'
       <a target="_self" href="https://visualizer.coffee/" class="project-link" title="Go to Visualizer">
         <span class="fa-stack fa-4x">
           <i class="fa fa-square fa-stack-2x stack-color"></i>
-          <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
+          <i class="fa fa-chart-line fa-stack-1x fa-inverse"></i>
         </span>
         <h4>Visualizer</h4>
         <hr class="seperator">
