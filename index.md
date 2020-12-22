@@ -38,6 +38,20 @@ css: '/css/extend-home.css'
   </div>
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
+      <a target="_self" href="https://visualizer.coffee/" class="project-link" title="Go to Visualizer">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-square fa-stack-2x stack-color"></i>
+          <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4>Visualizer</h4>
+        <hr class="seperator">
+        <p class="text-muted">A Decent shot visualizer by Miha</p>
+        <hr class="seperator">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+    <div class="project-card">
       <a target="_self" href="https://3.basecamp.com/3671212/projects/7351439" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-square fa-stack-2x stack-color"></i>
