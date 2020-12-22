@@ -27,7 +27,7 @@ css: '/css/extend-home.css'
       <a target="_self" href="https://www.diy.brakel.com.au/" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-square fa-stack-2x stack-color"></i>
-          <i class="fa fa-dyalog fa-stack-1x fa-inverse"></i>
+          <i class="fa fa-gem fa-stack-1x fa-inverse"></i>
         </span>
         <h4>Damian's Site</h4>
         <hr class="seperator">
