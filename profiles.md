@@ -32,3 +32,5 @@ I haven't used this one :/
 
 </details>
 
+A new class of profiles, meant to automatically pick a flowrate to make the most of the grind size you have chosen. The standard shot should always be stopped at 30 seconds total time, regardless of ratio or grind.
+
