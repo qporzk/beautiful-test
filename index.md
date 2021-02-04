@@ -10,12 +10,12 @@ css: '/css/extend-home.css'
 <div class="row text-center">
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
-      <a target="_self" href="https://qporzk.github.io/Decent-Docs/weis-compilation-post/" class="project-link" title="Go to Github Poject Page">
+      <a target="_self" href="https://qporzk.github.io/Decent-Docs/TOC/" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-square fa-stack-2x stack-color"></i>
           <i class="fa fa-play fa-stack-1x fa-inverse"></i>
         </span>
-        <h4>Getting Started</h4>
+        <h4>Table Of Contents</h4>
         <hr class="seperator">
         <p class="text-muted">List of links for beginner information.</p>
         <hr class="seperator">
