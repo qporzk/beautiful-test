@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Some Decent Documentation
+title: Some Decent Docs
 subtitle: This is where I will compile everything I can find about the Decent Espresso Machines
 cover-img: "https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/bigimg/beansclear.jpg"
 use-site-title: true
