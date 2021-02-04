@@ -4,6 +4,10 @@ title: Skins
 subtitle: Here I’ll compile links to various skins
 ---
 
+[MimojaCafe](https://github.com/Mimoja/de1app_skin_MimojaCafe)
+
+- A GHC-only cafe focused skin with themes, quick profile changes, and a super cool dev
+
 [Damian's DSx](https://www.diy.brakel.com.au/dsx/)
 
 - Highly configurable skin with large amount of value-add features
