@@ -15,7 +15,7 @@ author: Ryan Schubert
 
 navbar-links:
   Home: "index"
-  Getting Started: "weis-compilation-post"
+  Table of Contents: "TOC"
   Profiles: "profiles"
   Mods and Models: "mods-and-models"
   Skins: "skins"
@@ -24,7 +24,7 @@ navbar-links:
     - Decent Diaspora: "https://3.basecamp.com/3671212/projects/7351439"
     - Decent YouTube: "https://www.youtube.com/channel/UCCXojfo44Qhwdg3zmOWIJ7A"
     - Damian's Site: "https://www.diy.brakel.com.au/"
-    - Table of Contents: "TOC"
+    - Deprecated Getting Started: "weis-compilation-post"
   
 # --- Logo --- #
 
