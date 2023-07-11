@@ -3,9 +3,10 @@ layout: page
 title: Mods and Models
 subtitle: Here I’ll compile links to various mods and models for 3D printing
 ---
-- [DF64 Hot Load Funnel (Cone)](https://github.com/qporzk/Decent-Docs/blob/master/Models/DF64_Funnel cone.stl)
+- [DF64 Hot Load Funnel (Cone)](https://github.com/qporzk/Decent-Docs/blob/master/Models/DF64_Funnel_Cone.stl)
 - [DF64 Hot Load Funnel (Lid)](https://github.com/qporzk/Decent-Docs/blob/master/Models/DF64_Funnel_Lid.stl)
 - [DF64 Hot Load Funnel (Stopper)](https://github.com/qporzk/Decent-Docs/blob/master/Models/DF64_Funnel_Stopper.stl)
+- [DF64 Hot Load Funnel (F360 File)](https://github.com/qporzk/Decent-Docs/blob/master/Models/DF64_Hot_Load_Funnel.f3d)
 
 
 - [Portafilter Hanger](https://github.com/qporzk/Decent-Docs/blob/master/Models/DE1_Hanger_Full.stl)
