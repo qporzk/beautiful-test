@@ -14,6 +14,14 @@ subtitle: Here I’ll compile links to various mods and models for 3D printing
   
 ![](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/DF64_Hot_Load_Funnel.jpg)
 
+- [P100 Hot Load Funnel (Cone)](https://github.com/qporzk/Decent-Docs/blob/master/Models/P100_Hot_Cone.stl)
+
+- [P100 Hot Load Funnel (Stopper)](https://github.com/qporzk/Decent-Docs/blob/master/Models/P100_Hot_Stopper.stl)
+  
+- [P100 Hot Load Funnel (F360 File)](https://github.com/qporzk/Decent-Docs/blob/master/Models/P100_Hot_Load_Funnel.f3d)
+  
+![](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/P100_Hot_Load_Funnel.jpg)
+
 - [Portafilter Hanger](https://github.com/qporzk/Decent-Docs/blob/master/Models/DE1_Hanger_Full.stl)
 
 | ![](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/Portafilter_Hanger.jpg)  |  ![](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/holder_photo.jpg) |
