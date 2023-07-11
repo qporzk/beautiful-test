@@ -10,7 +10,7 @@ subtitle: Here I’ll compile links to various mods and models for 3D printing
 
 - [Filling Funnel](https://github.com/qporzk/Decent-Docs/blob/master/Models/DE1_Filler_Funnel_hanger.stl)
 
-![](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/Filler_Funnel.png)
+![](https://raw.githubusercontent.com/qporzk/Decent-Docs/master/assets/img/Filler_Funnel.jpg)
 
 - [Tamping Cradle](https://github.com/qporzk/Decent-Docs/blob/master/Models/TampCradleFunnel.stl)
 
